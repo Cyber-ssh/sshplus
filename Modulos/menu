@@ -648,7 +648,7 @@ case "$x" in
    ddos
    ;;
    at | AT)   
-   apt update -y && apt upgrade -y && wget -y; bash <(wget -qO- cybercoari.com.br/sshplus/sshplus)
+   attscript
    ;;
    re | RE)
    clear
