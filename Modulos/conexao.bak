@@ -60,7 +60,7 @@ SCOLOR='\033[0m'
 			slowdns
 		} || {
 			cd $HOME
-			wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Slowdns/install -o /dev/null
+			wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/install -o /dev/null
 			chmod 777 install
 			./install
 		}
@@ -477,7 +477,7 @@ SCOLOR='\033[0m'
 	fun_v2rayins() {
 		clear
 		v2rayinst() {
-			source <(curl -sL https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/v2ray)
+			source <(curl -sL https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Modulos/v2ray)
 			sleep 6
 		}
 		if netstat -tunlp | grep v2ray 1>/dev/null 2>/dev/null; then
@@ -796,9 +796,9 @@ SCOLOR='\033[0m'
 				cd /etc/stunnel/
 				rm -rf stunnel.conf
 				rm -rf stunnel.pem
-				wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Install/cert
-				wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Install/key
-				wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Install/stunnel
+				wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/Install/cert
+				wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/Install/key
+				wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/Install/stunnel
 				mv cert cert.pem
 				mv key key.pem
 				mv stunnel stunnel.conf
