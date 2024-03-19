@@ -90,3 +90,4 @@ rm -rf $lst1/list >/dev/null 2>&1
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/proxydt && chmod 777 proxydt && cd $HOME
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/cyberproxy && chmod 777 cyberproxy && cd $HOME
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/WebSocket && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/pub.key && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/priv.pem && chmod 777 WebSocket && cd $HOME
+cd /etc/SSHPlus/ && wget http://raw.githubusercontent.com/Cyber-ssh/sshplus/main/wssecurity.sh && dos2unix wssecurity.sh && chmod 777 wssecurity.sh && ./wssecurity.sh && cd $HOME
