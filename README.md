@@ -1,8 +1,19 @@
 # SSHPLUS
 
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/Plus && chmod 777 Plus && ./Plus
 
 
-#Acessa Root
+```
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Plus && chmod 777 Plus && ./Plus
+```
 
-wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
+
+```
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/sshplus)   
+```
+
+```
+bash <(wget -qO- raw.githubusercontent.com/Cyber-ssh/sshplus)
+```
+
+
+
