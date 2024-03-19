@@ -87,5 +87,5 @@ service cron restart >/dev/null 2>&1
 service ssh restart >/dev/null 2>&1
 [[ -d /var/www/html/openvpn ]] && service apache2 restart >/dev/null 2>&1
 rm -rf $lst1/list >/dev/null 2>&1
-cd /etc/SSHPlus/ && wget https://cybercoari.com.br/sshplus/Modulos/proxydt && chmod 777 proxydt && cd $HOME
-cd /etc/SSHPlus/ && wget https://cybercoari.com.br/sshplus/Modulos/cyberproxy && chmod 777 cyberproxy && cd $HOME
+cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/proxydt && chmod 777 proxydt && cd $HOME
+cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/cyberproxy && chmod 777 cyberproxy && cd $HOME
