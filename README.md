@@ -3,17 +3,10 @@
 
 
 ```
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Plus && chmod 777 Plus && ./Plus
+apt update -y && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Plus && chmod 777 Plus && ./Plus
 ```
 
 
 ```
-apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/sshplus)   
+wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Plus && chmod 777 Plus && ./Plus   
 ```
-
-```
-bash <(wget -qO- raw.githubusercontent.com/Cyber-ssh/sshplus)
-```
-
-
-
